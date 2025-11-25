@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "axios": "^1.13.2",
+    "jest": "^30.2.0",
+    "supertest": "^7.1.4"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:positive": "jest --testNamePattern=\"Positive Test Cases\"",
+    "test:negative": "jest --testNamePattern=\"Negative Test Cases\"",
+    "test:boundary": "jest --testNamePattern=\"Boundary Value Test Cases\"",
+    "test:headers": "jest --testNamePattern=\"Header Validation Tests\"",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  }
+}
